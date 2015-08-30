@@ -2,7 +2,7 @@
 //  main.m
 //  超级猜图
 //
-//  Created by 黄建鸿 on 15/8/30.
+//  Created by 黄建鸿 on 15/8/29.
 //  Copyright (c) 2015年 黄建鸿. All rights reserved.
 //
 

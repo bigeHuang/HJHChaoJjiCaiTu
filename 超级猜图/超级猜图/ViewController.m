@@ -2,7 +2,7 @@
 //  ViewController.m
 //  超级猜图
 //
-//  Created by 黄建鸿 on 15/8/30.
+//  Created by 黄建鸿 on 15/8/29.
 //  Copyright (c) 2015年 黄建鸿. All rights reserved.
 //
 
@@ -16,11 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    NSLog(@"沧海一声笑~");
-    NSLog(@"滔滔两岸潮~");
-    NSLog(@"浮沉随浪只记今朝");
-    NSLog(@"浮沉随浪只记今朝");
+    // Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)didReceiveMemoryWarning {

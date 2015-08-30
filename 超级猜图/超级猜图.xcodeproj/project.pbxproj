@@ -7,50 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3A5358C01B93345B00353752 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A5358BF1B93345B00353752 /* main.m */; };
-		3A5358C31B93345B00353752 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A5358C21B93345B00353752 /* AppDelegate.m */; };
-		3A5358C61B93345B00353752 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A5358C51B93345B00353752 /* ViewController.m */; };
-		3A5358C91B93345B00353752 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A5358C71B93345B00353752 /* Main.storyboard */; };
-		3A5358CB1B93345B00353752 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A5358CA1B93345B00353752 /* Images.xcassets */; };
-		3A5358CE1B93345B00353752 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A5358CC1B93345B00353752 /* LaunchScreen.xib */; };
-		3A5358DA1B93345B00353752 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A5358D91B93345B00353752 /* ____Tests.m */; };
+		3AB709F11B920289009416F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB709F01B920289009416F0 /* main.m */; };
+		3AB709F41B920289009416F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB709F31B920289009416F0 /* AppDelegate.m */; };
+		3AB709F71B920289009416F0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB709F61B920289009416F0 /* ViewController.m */; };
+		3AB709FA1B920289009416F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AB709F81B920289009416F0 /* Main.storyboard */; };
+		3AB709FC1B920289009416F0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AB709FB1B920289009416F0 /* Images.xcassets */; };
+		3AB709FF1B920289009416F0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AB709FD1B920289009416F0 /* LaunchScreen.xib */; };
+		3AB70A0B1B920289009416F0 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB70A0A1B920289009416F0 /* ____Tests.m */; };
+		3AE319C91B920D6200F52161 /* questions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3AE319C81B920D6200F52161 /* questions.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3A5358D41B93345B00353752 /* PBXContainerItemProxy */ = {
+		3AB70A051B920289009416F0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 3A5358B21B93345B00353752 /* Project object */;
+			containerPortal = 3AB709E31B920289009416F0 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3A5358B91B93345B00353752;
+			remoteGlobalIDString = 3AB709EA1B920289009416F0;
 			remoteInfo = "超级猜图";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3A5358BA1B93345B00353752 /* 超级猜图.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "超级猜图.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3A5358BE1B93345B00353752 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3A5358BF1B93345B00353752 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3A5358C11B93345B00353752 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		3A5358C21B93345B00353752 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3A5358C41B93345B00353752 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3A5358C51B93345B00353752 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		3A5358C81B93345B00353752 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3A5358CA1B93345B00353752 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		3A5358CD1B93345B00353752 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		3A5358D31B93345B00353752 /* 超级猜图Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "超级猜图Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3A5358D81B93345B00353752 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3A5358D91B93345B00353752 /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		3AB709EB1B920289009416F0 /* 超级猜图.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "超级猜图.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AB709EF1B920289009416F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AB709F01B920289009416F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3AB709F21B920289009416F0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3AB709F31B920289009416F0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3AB709F51B920289009416F0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3AB709F61B920289009416F0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3AB709F91B920289009416F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3AB709FB1B920289009416F0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3AB709FE1B920289009416F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3AB70A041B920289009416F0 /* 超级猜图Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "超级猜图Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AB70A091B920289009416F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AB70A0A1B920289009416F0 /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		3AE319C81B920D6200F52161 /* questions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = questions.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3A5358B71B93345B00353752 /* Frameworks */ = {
+		3AB709E81B920289009416F0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3A5358D01B93345B00353752 /* Frameworks */ = {
+		3AB70A011B920289009416F0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -60,61 +62,62 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3A5358B11B93345B00353752 = {
+		3AB709E21B920289009416F0 = {
 			isa = PBXGroup;
 			children = (
-				3A5358BC1B93345B00353752 /* 超级猜图 */,
-				3A5358D61B93345B00353752 /* 超级猜图Tests */,
-				3A5358BB1B93345B00353752 /* Products */,
+				3AB709ED1B920289009416F0 /* 超级猜图 */,
+				3AB70A071B920289009416F0 /* 超级猜图Tests */,
+				3AB709EC1B920289009416F0 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		3A5358BB1B93345B00353752 /* Products */ = {
+		3AB709EC1B920289009416F0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3A5358BA1B93345B00353752 /* 超级猜图.app */,
-				3A5358D31B93345B00353752 /* 超级猜图Tests.xctest */,
+				3AB709EB1B920289009416F0 /* 超级猜图.app */,
+				3AB70A041B920289009416F0 /* 超级猜图Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3A5358BC1B93345B00353752 /* 超级猜图 */ = {
+		3AB709ED1B920289009416F0 /* 超级猜图 */ = {
 			isa = PBXGroup;
 			children = (
-				3A5358C11B93345B00353752 /* AppDelegate.h */,
-				3A5358C21B93345B00353752 /* AppDelegate.m */,
-				3A5358C41B93345B00353752 /* ViewController.h */,
-				3A5358C51B93345B00353752 /* ViewController.m */,
-				3A5358C71B93345B00353752 /* Main.storyboard */,
-				3A5358CA1B93345B00353752 /* Images.xcassets */,
-				3A5358CC1B93345B00353752 /* LaunchScreen.xib */,
-				3A5358BD1B93345B00353752 /* Supporting Files */,
+				3AB709F21B920289009416F0 /* AppDelegate.h */,
+				3AB709F31B920289009416F0 /* AppDelegate.m */,
+				3AB709F51B920289009416F0 /* ViewController.h */,
+				3AB709F61B920289009416F0 /* ViewController.m */,
+				3AB709F81B920289009416F0 /* Main.storyboard */,
+				3AB709FB1B920289009416F0 /* Images.xcassets */,
+				3AB709FD1B920289009416F0 /* LaunchScreen.xib */,
+				3AB709EE1B920289009416F0 /* Supporting Files */,
 			);
 			path = "超级猜图";
 			sourceTree = "<group>";
 		};
-		3A5358BD1B93345B00353752 /* Supporting Files */ = {
+		3AB709EE1B920289009416F0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				3A5358BE1B93345B00353752 /* Info.plist */,
-				3A5358BF1B93345B00353752 /* main.m */,
+				3AE319C81B920D6200F52161 /* questions.plist */,
+				3AB709EF1B920289009416F0 /* Info.plist */,
+				3AB709F01B920289009416F0 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		3A5358D61B93345B00353752 /* 超级猜图Tests */ = {
+		3AB70A071B920289009416F0 /* 超级猜图Tests */ = {
 			isa = PBXGroup;
 			children = (
-				3A5358D91B93345B00353752 /* ____Tests.m */,
-				3A5358D71B93345B00353752 /* Supporting Files */,
+				3AB70A0A1B920289009416F0 /* ____Tests.m */,
+				3AB70A081B920289009416F0 /* Supporting Files */,
 			);
 			path = "超级猜图Tests";
 			sourceTree = "<group>";
 		};
-		3A5358D71B93345B00353752 /* Supporting Files */ = {
+		3AB70A081B920289009416F0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				3A5358D81B93345B00353752 /* Info.plist */,
+				3AB70A091B920289009416F0 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -122,13 +125,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3A5358B91B93345B00353752 /* 超级猜图 */ = {
+		3AB709EA1B920289009416F0 /* 超级猜图 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3A5358DD1B93345B00353752 /* Build configuration list for PBXNativeTarget "超级猜图" */;
+			buildConfigurationList = 3AB70A0E1B920289009416F0 /* Build configuration list for PBXNativeTarget "超级猜图" */;
 			buildPhases = (
-				3A5358B61B93345B00353752 /* Sources */,
-				3A5358B71B93345B00353752 /* Frameworks */,
-				3A5358B81B93345B00353752 /* Resources */,
+				3AB709E71B920289009416F0 /* Sources */,
+				3AB709E81B920289009416F0 /* Frameworks */,
+				3AB709E91B920289009416F0 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -136,46 +139,46 @@
 			);
 			name = "超级猜图";
 			productName = "超级猜图";
-			productReference = 3A5358BA1B93345B00353752 /* 超级猜图.app */;
+			productReference = 3AB709EB1B920289009416F0 /* 超级猜图.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3A5358D21B93345B00353752 /* 超级猜图Tests */ = {
+		3AB70A031B920289009416F0 /* 超级猜图Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3A5358E01B93345B00353752 /* Build configuration list for PBXNativeTarget "超级猜图Tests" */;
+			buildConfigurationList = 3AB70A111B920289009416F0 /* Build configuration list for PBXNativeTarget "超级猜图Tests" */;
 			buildPhases = (
-				3A5358CF1B93345B00353752 /* Sources */,
-				3A5358D01B93345B00353752 /* Frameworks */,
-				3A5358D11B93345B00353752 /* Resources */,
+				3AB70A001B920289009416F0 /* Sources */,
+				3AB70A011B920289009416F0 /* Frameworks */,
+				3AB70A021B920289009416F0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3A5358D51B93345B00353752 /* PBXTargetDependency */,
+				3AB70A061B920289009416F0 /* PBXTargetDependency */,
 			);
 			name = "超级猜图Tests";
 			productName = "超级猜图Tests";
-			productReference = 3A5358D31B93345B00353752 /* 超级猜图Tests.xctest */;
+			productReference = 3AB70A041B920289009416F0 /* 超级猜图Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3A5358B21B93345B00353752 /* Project object */ = {
+		3AB709E31B920289009416F0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "黄建鸿";
 				TargetAttributes = {
-					3A5358B91B93345B00353752 = {
+					3AB709EA1B920289009416F0 = {
 						CreatedOnToolsVersion = 6.4;
 					};
-					3A5358D21B93345B00353752 = {
+					3AB70A031B920289009416F0 = {
 						CreatedOnToolsVersion = 6.4;
-						TestTargetID = 3A5358B91B93345B00353752;
+						TestTargetID = 3AB709EA1B920289009416F0;
 					};
 				};
 			};
-			buildConfigurationList = 3A5358B51B93345B00353752 /* Build configuration list for PBXProject "超级猜图" */;
+			buildConfigurationList = 3AB709E61B920289009416F0 /* Build configuration list for PBXProject "超级猜图" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -183,29 +186,30 @@
 				en,
 				Base,
 			);
-			mainGroup = 3A5358B11B93345B00353752;
-			productRefGroup = 3A5358BB1B93345B00353752 /* Products */;
+			mainGroup = 3AB709E21B920289009416F0;
+			productRefGroup = 3AB709EC1B920289009416F0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3A5358B91B93345B00353752 /* 超级猜图 */,
-				3A5358D21B93345B00353752 /* 超级猜图Tests */,
+				3AB709EA1B920289009416F0 /* 超级猜图 */,
+				3AB70A031B920289009416F0 /* 超级猜图Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3A5358B81B93345B00353752 /* Resources */ = {
+		3AB709E91B920289009416F0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A5358C91B93345B00353752 /* Main.storyboard in Resources */,
-				3A5358CE1B93345B00353752 /* LaunchScreen.xib in Resources */,
-				3A5358CB1B93345B00353752 /* Images.xcassets in Resources */,
+				3AE319C91B920D6200F52161 /* questions.plist in Resources */,
+				3AB709FA1B920289009416F0 /* Main.storyboard in Resources */,
+				3AB709FF1B920289009416F0 /* LaunchScreen.xib in Resources */,
+				3AB709FC1B920289009416F0 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3A5358D11B93345B00353752 /* Resources */ = {
+		3AB70A021B920289009416F0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -215,47 +219,47 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3A5358B61B93345B00353752 /* Sources */ = {
+		3AB709E71B920289009416F0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A5358C61B93345B00353752 /* ViewController.m in Sources */,
-				3A5358C31B93345B00353752 /* AppDelegate.m in Sources */,
-				3A5358C01B93345B00353752 /* main.m in Sources */,
+				3AB709F71B920289009416F0 /* ViewController.m in Sources */,
+				3AB709F41B920289009416F0 /* AppDelegate.m in Sources */,
+				3AB709F11B920289009416F0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3A5358CF1B93345B00353752 /* Sources */ = {
+		3AB70A001B920289009416F0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A5358DA1B93345B00353752 /* ____Tests.m in Sources */,
+				3AB70A0B1B920289009416F0 /* ____Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3A5358D51B93345B00353752 /* PBXTargetDependency */ = {
+		3AB70A061B920289009416F0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3A5358B91B93345B00353752 /* 超级猜图 */;
-			targetProxy = 3A5358D41B93345B00353752 /* PBXContainerItemProxy */;
+			target = 3AB709EA1B920289009416F0 /* 超级猜图 */;
+			targetProxy = 3AB70A051B920289009416F0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3A5358C71B93345B00353752 /* Main.storyboard */ = {
+		3AB709F81B920289009416F0 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3A5358C81B93345B00353752 /* Base */,
+				3AB709F91B920289009416F0 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		3A5358CC1B93345B00353752 /* LaunchScreen.xib */ = {
+		3AB709FD1B920289009416F0 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3A5358CD1B93345B00353752 /* Base */,
+				3AB709FE1B920289009416F0 /* Base */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -263,7 +267,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		3A5358DB1B93345B00353752 /* Debug */ = {
+		3AB70A0C1B920289009416F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -306,7 +310,7 @@
 			};
 			name = Debug;
 		};
-		3A5358DC1B93345B00353752 /* Release */ = {
+		3AB70A0D1B920289009416F0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -343,27 +347,29 @@
 			};
 			name = Release;
 		};
-		3A5358DE1B93345B00353752 /* Debug */ = {
+		3AB70A0F1B920289009416F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "超级猜图/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		3A5358DF1B93345B00353752 /* Release */ = {
+		3AB70A101B920289009416F0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "超级猜图/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
-		3A5358E11B93345B00353752 /* Debug */ = {
+		3AB70A121B920289009416F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -382,7 +388,7 @@
 			};
 			name = Debug;
 		};
-		3A5358E21B93345B00353752 /* Release */ = {
+		3AB70A131B920289009416F0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -400,32 +406,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3A5358B51B93345B00353752 /* Build configuration list for PBXProject "超级猜图" */ = {
+		3AB709E61B920289009416F0 /* Build configuration list for PBXProject "超级猜图" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3A5358DB1B93345B00353752 /* Debug */,
-				3A5358DC1B93345B00353752 /* Release */,
+				3AB70A0C1B920289009416F0 /* Debug */,
+				3AB70A0D1B920289009416F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3A5358DD1B93345B00353752 /* Build configuration list for PBXNativeTarget "超级猜图" */ = {
+		3AB70A0E1B920289009416F0 /* Build configuration list for PBXNativeTarget "超级猜图" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3A5358DE1B93345B00353752 /* Debug */,
-				3A5358DF1B93345B00353752 /* Release */,
+				3AB70A0F1B920289009416F0 /* Debug */,
+				3AB70A101B920289009416F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		3A5358E01B93345B00353752 /* Build configuration list for PBXNativeTarget "超级猜图Tests" */ = {
+		3AB70A111B920289009416F0 /* Build configuration list for PBXNativeTarget "超级猜图Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3A5358E11B93345B00353752 /* Debug */,
-				3A5358E21B93345B00353752 /* Release */,
+				3AB70A121B920289009416F0 /* Debug */,
+				3AB70A131B920289009416F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 3A5358B21B93345B00353752 /* Project object */;
+	rootObject = 3AB709E31B920289009416F0 /* Project object */;
 }
