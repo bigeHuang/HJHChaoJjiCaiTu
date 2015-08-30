@@ -18,7 +18,8 @@
     [super viewDidLoad];
     
     NSLog(@"沧海一声笑~");
-    NSLog(@"好好两岸潮~");
+    NSLog(@"滔滔两岸潮~");
+    NSLog(@"浮沉随浪只记今朝");
 }
 
 - (void)didReceiveMemoryWarning {
